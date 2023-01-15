@@ -14,17 +14,37 @@
  *= require_self
  */
 
- body {
+body {
   background-color: #d6e9e1;
   color: #3c0648;
   font-family: sans-serif;
- }
+}
 
- img {
+img {
   width: 200px;
- }
+}
 
- header {
+header {
   text-align: center;
- }
- 
+}
+
+p.tagline {
+  font-style: italic;
+  font-size: 1.4em;
+}
+
+p {
+  text-align: center;
+}
+
+#mc_embed_signup{
+  background: #d6e9e1;
+  clear: left;
+  font-family: sans-serif;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#mc_embed_signup .helper_text {
+  background: #d6e9e1 !important;
+}
