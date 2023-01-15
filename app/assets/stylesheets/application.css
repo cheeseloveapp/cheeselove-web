@@ -27,3 +27,9 @@ img {
 header {
   text-align: center;
 }
+
+p.tagline {
+  font-style: italic;
+  font-size: 1.4em;
+}
+
