@@ -33,3 +33,18 @@ p.tagline {
   font-size: 1.4em;
 }
 
+p {
+  text-align: center;
+}
+
+#mc_embed_signup{
+  background: #d6e9e1;
+  clear: left;
+  font-family: sans-serif;
+  width: 600px;
+  margin: 0 auto;
+}
+
+#mc_embed_signup .helper_text {
+  background: #d6e9e1 !important;
+}
