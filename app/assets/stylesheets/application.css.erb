@@ -16,16 +16,31 @@
 
 body {
   background-color: #d6e9e1;
+  background-image: url(<%= asset_path("gradient-background.png") %>);
+  background-position: top center;
   color: #3c0648;
+  font-family: 'Finlandica', sans-serif;
 }
 
-#mc_embed_signup{
-  background: #d6e9e1;
+h1 {
+  font-family: 'Calistoga', cursive;
+}
+
+#mc_embed_signup {
+  background: transparent;
   clear: left;
-  font-family: sans-serif;
+  font-family: 'Finlandica', sans-serif;
   margin: 0 auto;
 }
 
+#mc_embed_signup form {
+  margin: 0 !important;
+}
+
+#mc_embed_signup .indicates-required {
+  display: none;
+}
+
 #mc_embed_signup .helper_text {
-  background: #d6e9e1 !important;
+  background: transparent !important;
 }
