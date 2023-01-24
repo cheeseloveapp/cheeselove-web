@@ -1,0 +1,23 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "bundle install",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "server": "rails server"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rebornix.Ruby"
+      ]
+    }
+  },
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [3000]
+}
