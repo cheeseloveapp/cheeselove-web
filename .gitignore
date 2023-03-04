@@ -75,3 +75,4 @@ yarn-debug.log*
 !/tmp/storage/.keep
 
 .nova
+.DS_Store
