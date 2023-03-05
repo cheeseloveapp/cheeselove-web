@@ -11,5 +11,5 @@ When('I click on a cheese') do
 end
 
 Then('I should see a list of cheeses') do
-  pending # Write code here that turns the phrase above into concrete actions
+  expect(page).to have_css("ul.cheeses")
 end
