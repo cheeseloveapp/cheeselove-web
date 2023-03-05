@@ -19,4 +19,4 @@ jobs:
         with:
           bundler-cache: true
       - shell: bash
-        run: rake rspec
+        run: rake spec
