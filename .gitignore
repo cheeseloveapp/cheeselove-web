@@ -1,6 +1,5 @@
 *.rbc
 capybara-*.html
-.rspec
 /db/*.sqlite3
 /db/*.sqlite3-journal
 /db/*.sqlite3-[0-9]*
@@ -75,3 +74,4 @@ yarn-debug.log*
 !/tmp/storage/.keep
 
 .nova
+.DS_Store
