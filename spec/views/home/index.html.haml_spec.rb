@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe "home/index.html.haml", type: :view do
   before(:each) do
+    assign(:cheeses, instance_double(ActiveRecord::Relation))
     render
   end
 
