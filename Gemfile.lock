@@ -115,7 +115,7 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
-    puma (6.3.1)
+    puma (6.4.0)
       nio4r (~> 2.0)
     racc (1.7.1)
     rack (2.2.8)
@@ -188,7 +188,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
-  puma (~> 6.3)
+  puma (~> 6.4)
   rails (~> 7.0.7)
   sprockets-rails
   sqlite3 (~> 1.6)
